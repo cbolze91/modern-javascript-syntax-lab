@@ -163,7 +163,9 @@ const pizza = 'tasty';
 
 // Your code here:
 
-let tastTest = pizza === 'tasty' ? console.log('yum') : console.log('yuck');
+let tasteTest = pizza === 'tasty' ? 'yum' : 'yuck';
+
+console.log(tasteTest);
 
 
 // ! Exercise 10:
