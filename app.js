@@ -79,3 +79,30 @@ const uncontroversialPizzaToppings = [...morePizzaToppings];
 
 console.log(uncontroversialPizzaToppings);
 
+
+// ! Exercise 5:
+// a. Duplicate the provided `anotherCar` object and spread its values into a 
+//    new variable named `myCar`.
+//
+// b. Change the `make` and `model` properties of the `myCar` object to new 
+//    values.
+//
+// c. Console log both objects and observe the results.
+//
+// Starting code (don't modify this):
+
+const anotherCar = {
+  make: 'Toyota',
+  model: 'RAV4',
+};
+
+// Your code here:
+
+const myCar = {...anotherCar};
+
+myCar.make = 'Kia';
+myCar.model = 'Seltos';
+
+console.log(anotherCar);
+console.log(myCar);
+
